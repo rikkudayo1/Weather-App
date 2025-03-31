@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: gainsboro;
+
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h1 {
+    font-size: 45px;
+    color: black;
+    margin-bottom: 30px;
+}
+.content {
+    border-radius: 15px;
+    background: white;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    -webkit-box-shadow: 10px 10px 55px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 55px -15px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 55px -15px rgba(0,0,0,0.75);
+}
+.content h1 {
+    margin-bottom: 25px;
+    color: blue;
+}
+.inputs {
+    border-radius: 15px;
+    overflow: hidden;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 10px 10px 55px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 55px -15px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 55px -15px rgba(0,0,0,0.75);
+}
+.inputs button, .inputs input {
+    font-size: 16px;
+    background-color: gainsboro;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+.inputs input {
+    width: 300px;
+}
+.inputs button {
+    background-color: gray;
+}
+.inputs button:hover {
+    background-color: lightgray;
+}
